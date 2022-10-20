@@ -20,9 +20,27 @@ body {
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
 }
 
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: coral;
+    cursor: pointer;
 }

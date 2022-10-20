@@ -20,7 +20,33 @@
         <h2>Top Navigation Example</h2>
         <p>Some content..</p>
     </div>
-    <%= dataUser %>
+    <h2>Hoverable Table</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Details</th>
+        </tr>
+        <% for(var i=0; i < dataUser.length; i++) { %>
+            <tr>
+                <td>
+                    <%= dataUser[i].id %>
+                </td>
+                <td>
+                    <%= dataUser[i].firstName %>
+                </td>
+                <td>
+                    <%= dataUser[i].lastName %>
+                </td>
+                <td>
+                    <button>Detail</button>
+                    <button>Delete</button>
+                    <button>Update</button>
+                </td>
+            </tr>
+            <% } %>
+    </table>
 </body>
 
 </html>
