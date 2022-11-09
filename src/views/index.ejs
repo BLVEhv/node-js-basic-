@@ -48,25 +48,30 @@
                 </tr>
                 <% } %>
         </table>
-        <div class="create-new-user">
-            <div><b>Create new user:</b></div>
-            <div>
-                <label for="">First Name:</label>
-                <input type="text">
+        <form action="/create-new-user" method="post">
+            <div class="create-new-user">
+                <div><b>Create new user:</b></div>
+                <div>
+                    <label for="">First Name:</label>
+                    <input type="text" name="firstName">
+                </div>
+                <div>
+                    <label for="">Last Name:</label>
+                    <input type="text" name="lastName">
+                </div>
+                <div>
+                    <label for="">Email:</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label for="">Address:</label>
+                    <input type="text" name="address">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
             </div>
-            <div>
-                <label for="">Last Name:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="">Email:</label>
-                <input type="email">
-            </div>
-            <div>
-                <label for="">Address:</label>
-                <input type="text">
-            </div>
-        </div>
+        </form>
     </div>
 </body>
 

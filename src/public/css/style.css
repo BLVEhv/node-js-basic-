@@ -53,3 +53,9 @@ tr:hover {
 .create-new-user label {
     display: block;
 }
+
+.create-new-user button {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
