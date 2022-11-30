@@ -59,3 +59,16 @@ tr:hover {
     margin-top: 10px;
     cursor: pointer;
 }
+
+.update-user {
+    text-align: center;
+}
+
+.update-user label {
+    display: block;
+}
+
+.update-user button {
+    margin-top: 10px;
+    cursor: pointer;
+}
