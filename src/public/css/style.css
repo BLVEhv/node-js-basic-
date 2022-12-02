@@ -72,3 +72,15 @@ tr:hover {
     margin-top: 10px;
     cursor: pointer;
 }
+
+
+
+.upload-file label {
+    display: block;
+}
+
+.upload-file input {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
